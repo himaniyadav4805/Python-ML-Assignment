@@ -8,10 +8,4 @@ def remove_punctuation(input_string):
         
         if char not in punctuations:
            no_punct_string += char
-    
-    return no_punct_string
-input_string = "Hello, World! This is a test string with punctuation: @#$%^&*()_+-=[]{}|;:',.<>/?"
-result = remove_punctuation(input_string)
-print("Original String:", input_string)
-print("String without punctuation:", result)
-
+   
