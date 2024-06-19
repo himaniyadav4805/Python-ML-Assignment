@@ -10,3 +10,4 @@ if char_to_find in frequency_dict:
     print(f"The frequency of '{char_to_find}' is: {frequency_dict[char_to_find]}")
 else:
     print(f"The character '{char_to_find}' is not in the string.")
+
