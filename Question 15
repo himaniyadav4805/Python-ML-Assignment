@@ -8,3 +8,4 @@ with open(filename, newline='') as csvfile:
         data.append(row)
 for row in data:
     print(row)
+
